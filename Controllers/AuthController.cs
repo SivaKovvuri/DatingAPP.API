@@ -21,7 +21,7 @@ namespace DatingApp.API.Controllers
             _authRepository = authRepository;
         }
 
-        [HttpPost("register")]
+        
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
