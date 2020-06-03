@@ -54,3 +54,6 @@ bin
 obj
 
 Migrations
+
+
+appSettings.json
